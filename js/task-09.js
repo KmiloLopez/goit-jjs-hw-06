@@ -12,6 +12,17 @@ buttonChangeColor.addEventListener('click',()=>{
   console.log(getRandomHexColor())
   console.log("ShowColor", showColor)
 
+  
+  console.log(paragSelect)
+  /* paragSelect[1].insertAdjacentHTML("beforeend",getRandomHexColor()) */
+  paragSelect[1].textContent="Background color: -"+ getRandomHexColor() 
+
+  /*  document.body.style.backgroudColor = getRandomHexColor(); */
+  /*  showColor.style.backgroundColor = getRandomHexColor();  */
+   document.body.style.backgroundColor = getRandomHexColor();
+
+
+
   /* 
   span.color.innerHTML(getRandomHexColor())
   showColor.innerHTML(getRandomHexColor())
@@ -28,6 +39,6 @@ buttonChangeColor.addEventListener('click',()=>{
  */
  /*  console.log(paragSelect.spam.color)
   document.body.spam.color = innertext.getRandomHexColor() */
-  document.body.style.backgroundColor = getRandomHexColor();
+  
 
 })

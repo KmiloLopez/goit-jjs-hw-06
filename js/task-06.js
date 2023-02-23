@@ -14,7 +14,7 @@ let inputLength= arrayNew.length
    charLenth= inputLength
    /* console.log("ACA3",charLenth) */
  })
- inputChar.addEventListener("blur",(e)=>{
+ inputChar.addEventListener("blur",()=>{
     console.log("Se activo blur")
     
     
